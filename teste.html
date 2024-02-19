@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Contas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.half img:hover{opacity:1}
+.green {color:#ffffff!important}
+.transacoes {background-color: #1e716d!important; color: #fff!important}
+.btn-signup {background-color: #1e716d!important; color: #fff!important}
+.poupanca {background-color: #1e716d!important; color: #fff!important}
+
+/* Estilos adicionais */
+.container {
+  margin-top: 75px;
+}
+
+.xxxlarge {
+  font-size: 36px;
+}
+
+.text {
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.padding-32 {
+  padding: 32px;
+}
+
+.padding-16 {
+  padding: 16px;
+}
+
+.padding-24 {
+  padding: 24px;
+}
+
+.light-grey {
+  background-color: #f1f1f1;
+}
+
+.dark-grey {
+  background-color: #333;
+  color: white;
+}
+
+.white {
+  background-color: white;
+}
+
+.hover-black:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: #f1f1f1;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.half {
+  width: 50%;
+  float: left;
+}
+
+.margin-bottom {
+  margin-bottom: 16px;
+}
+</style> 
+</head>
+<body>
+
+<div class="overlay hide-large" onclick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<div class="main" style="margin-left:340px;margin-right:40px">
+
+  <div class="container" id="packages">
+    <h1 class="xxxlarge text"><b>Contas</b></h1>
+    <hr style="width:50px;border:5px solid #1e716d;border-radius: 50%;" class="round">
+    <p>Nesta seção, você pode criar sua conta e começar a registrar suas transações. Gerencie suas finanças de forma simples e eficiente.</p>
+  </div> 
+
+  <div class="row-padding">
+    <div class="half margin-bottom">
+      <ul class="wul light-grey center">
+        <li class="dark-grey xlarge padding-32 poupanca">Poupança</li>
+        <li class="padding-16">Conta 1</li>
+       
+        <li class="light-grey padding-24">
+          <button class="btn white padding-large hover-black btn-signup">Criar Conta</button>
+        </li>
+      </ul>
+    </div> 
+        
+    <div class="half">
+      <ul class="ul light-grey center">
+      
+        <li class="green xlarge padding-32 transacoes">Transações</li>
+        <li class="padding-16">Transação 1</li>
+        
+        <li class="light-grey padding-24">
+          <button class="btn -red padding-large hover-black btn-signup">Adicionar Transações</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
