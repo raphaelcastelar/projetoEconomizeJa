@@ -1,15 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-}
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.half img:hover{opacity:1}
+/* Adicionando a cor verde (#4CAF50) para a aba de Transações */
+.green {color:#ffffff!important}
+.transacoes {background-color: #1e716d!important; color: #fff!important}
+.btn-signup {background-color: #1e716d!important; color: #fff!important}
+.poupanca {background-color: #1e716d!important; color: #fff!important}
 
-.container {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.title {
-    text-align: center;
-}
+/* Novas classes personalizadas */
+.container {margin-left:340px;margin-right:40px;}
+.title {margin-top:75px;}
+.title h1 {font-size: 3em; color: #333; border-bottom: 5px solid #1e716d; display: inline-block;}
+.section {margin-top: 20px;}
+.section p {color: #333;}
+.column {float: left; width: 50%;}
+ul {list-style-type: none; padding: 0;}
+.card {background-color: #f9f9f9; padding: 20px; margin-bottom: 20px;}
+.card:hover {background-color: #f0f0f0;}
+.card-title {background-color: #1e716d; color: #fff; padding: 10px;}
+.card-content {margin-top: 10px;}
+.button {background-color: #1e716d; color: #fff; padding: 10px 20px; border: none; cursor: pointer;}
+.button:hover {background-color: #16635d;}
