@@ -8,9 +8,6 @@
 
 </head>
 <body>
-    
-
- 
 <div class="container">
   <div class="card"></div>
   <div class="card">
@@ -19,9 +16,8 @@
           <div class="select">
               <select id="nome" required="required">
                   <option value="" disabled selected>Selecione o tipo</option>
-                  <option value="nome1">Nome 1</option>
-                  <option value="nome2">Nome 2</option>
-                  <option value="nome3">Nome 3</option>
+                  <option value="Saque">Saque</option>
+                  <option value="Deposito">Deposito</option>
               </select>
               <label for="nome"></label>
               <div class="bar"></div>
@@ -29,26 +25,33 @@
 
           <div class="select">
             <select id="nome" required="required">
-                <option value="" disabled selected>Selecione o tipo</option>
-                <option value="nome1">Nome 1</option>
-                <option value="nome2">Nome 2</option>
-                <option value="nome3">Nome 3</option>
+                <option value="" disabled selected>Selecione a categoria</option>
+                <option value="ALIMENTACAO">Alimentação</option>
+                <option value="MORADIA">Moradia</option>
+                <option value="TRANSPORTE">Transporte</option>
+                <option value="SAUDE">Saúde</option>
+                <option value="EDUCACAO">Educação</option>
+                <option value="LAZER">Lazer e Entretenimento</option>
+                <option value="VESTUARIO">Vestuário e Beleza</option>
+                <option value="DIVIDAS">Dívidas e Empréstimos</option>
+                <option value="INVESTIMENTOS">Investimentos</option>
+                <option value="IMPOSTOS">Impostos e Taxas</option>
+                <option value="SALARIO">Salário</option>
+                <option value="BONUS">Bônus</option>
+                <option value="RENDIMENTOS">Rendimentos</option>
+                <option value="REEMBOLSO">Reembolso</option>
+                <option value="OUTROS">Outros</option>
+                
             </select>
             <label for="nome"></label>
             <div class="bar"></div>
         </div>
-        
-          <div class="select">
-              <select id="saldo" required="required">
-                  <option value="" disabled selected>Selecione a categoria</option>
-                  <option value="100">R$ 100,00</option>
-                  <option value="200">R$ 200,00</option>
-                  <option value="300">R$ 300,00</option>
-              </select>
-              <label for="saldo"></label>
-              <div class="bar"></div>
-          </div>
-          <div class="button-container"><button><span>Criar Conta</span></button></div>
+        <div class="input-container"><input type="number" format="currency" id="#{label}" required="required" /><label for="#{label}">Valor</label>
+            <div class="bar"></div>
+        </div>
+        <div class="button-container"><button><span>Registrar Transação</span></button></div>
+
+         
          
       </form>
   </div>
