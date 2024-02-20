@@ -4,59 +4,12 @@
 <title>Contas</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size:16px;}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
-.w3-green {color:#ffffff!important}
-.w3-transacoes {background-color: #1e716d!important; color: #fff!important}
-.w3-btn-signup {background-color: #1e716d!important; color: #fff!important}
-.w3-poupanca {background-color: #1e716d!important; color: #fff!important}
-</style> 
+<link rel="stylesheet" href="teste.css">
+
 </head>
 <body>
-
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-
-<div class="w3-main" style="margin-left:340px;margin-right:40px">
-
-  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text"><style> </style><b>Contas</b></h1>
-    <hr style="width:50px;border:5px solid #1e716d" class="w3-round">
-    <p>Nesta seção, você pode criar sua conta e começar a registrar suas transações. Gerencie suas finanças de forma simples e eficiente.</p>
-  </div> 
-
-  <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32 w3-poupanca">Poupança</li>
-        <li class="w3-padding-16">Conta 1</li>
-       
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-white w3-padding-large w3-hover-black w3-btn-signup">Criar Conta</button>
-        </li>
-      </ul>
-    </div> 
-        
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-      
-        <li class="w3-green w3-transacoes w3-xlarge w3-padding-32">Transações</li>
-        <li class="w3-padding-16">Transação 1</li>
-        
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-red w3-padding-large w3-hover-black w3-btn-signup">Adicionar Transações</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-  
-
-</div>
+  <label class="select" for="slct"><select id="slct" required="required"><option value="" disabled="disabled" selected="selected">Select option</option><option value="#">One</option><option value="#">Two</option><option value="#">Three</option><option value="#">Four</option><option value="#">Five</option><option value="#">Six</option><option value="#">Seven</option></select><svg><use xlink:href="#select-arrow-down"></use></svg></label>
+  <!-- SVG Sprites--><svg class="sprites"><symbol id="select-arrow-down" viewbox="0 0 10 6"><polyline points="1 1 5 5 9 1"></polyline></symbol></svg>
 
 
 </body>
